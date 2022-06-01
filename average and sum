@@ -1,0 +1,19 @@
+#include<iostream>
+
+using namespace std;
+
+int main (){
+	int a ,b , answer, average ;
+	cout <<"enter the first number";
+	cin>> a;
+	cout<<"enter the second number";
+	cin>>b;
+	answer=a + b;
+	average =answer/2;
+	cout<<"the answer of the two numbers is "<<answer<<endl;
+	cout<<"the average of the two numbers is "<<average<<endl;
+	
+	return 0;
+}
+
+	
